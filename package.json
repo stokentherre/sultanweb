@@ -1,0 +1,20 @@
+{
+  "name": "cors-proxy-server",
+  "version": "1.0.0",
+  "description": "Simple CORS proxy server for Free Fire Info API",
+  "main": "cors-proxy.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cors-proxy.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
